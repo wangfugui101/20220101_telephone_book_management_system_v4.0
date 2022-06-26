@@ -1,0 +1,2 @@
+main: source/main.c source/add_menu.c source/delete_menu.c source/file.c source/interface.c source/other.c source/query_menu.c source/show_menu.c source/update_menu.c
+	gcc ./source/*.c -o ./bin/contacts -I./include -L./library -lmy_static
